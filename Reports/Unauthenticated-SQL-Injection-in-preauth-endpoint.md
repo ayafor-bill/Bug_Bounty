@@ -32,6 +32,8 @@ Unauthenticated SQL injection in a parameter used in a pre-auth GraphQL mutation
 6. Bypass work
 7. SQLi Confirmed
 
+### Payload 1 resonse
+
 ```response-to-payload1
 HTTP/2 200 OK
 ...
@@ -58,6 +60,7 @@ Content-Length: 768
           }
 
 ```
+### Payload 2 response
 
 ```response-to-payload2
 HTTP/2 200 OK
